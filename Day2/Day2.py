@@ -67,10 +67,10 @@ for line in file:
             #     print('Bag ' + match + ' is valid')
         
     if isValid == True:
-        print('Game #' + str(gameNumber) + ' is valid\n')
+        print('Game #' + str(gameNumber) + ' is valid\n\n')
         sum += gameNumber
     else:
-        print('Game #' + str(gameNumber) + ' is invalid\n')
+        print('Game #' + str(gameNumber) + ' is invalid\n\n')
 
 print('Sum of valid games: ' + str(sum))
     
